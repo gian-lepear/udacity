@@ -15,4 +15,4 @@ def mapper():
 		
 mapper()
 sys.stdin = open('turnstile_data_master_with_weather.csv')
-sys.stdout = open('mapper_result.txt', 'w')
+sys.stdout = open('mapper_result.txt', 'a+')
